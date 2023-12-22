@@ -3,6 +3,6 @@
     public enum RolEnum
     {
          Gerente = 1,
-         Secretaria
+         Recepcionista
     }
 }
