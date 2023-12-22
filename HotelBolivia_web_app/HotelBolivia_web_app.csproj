@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>82eb1648-cded-4d70-8ad0-3a43bedf0dd8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +20,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\fotos\" />
   </ItemGroup>
 
 </Project>

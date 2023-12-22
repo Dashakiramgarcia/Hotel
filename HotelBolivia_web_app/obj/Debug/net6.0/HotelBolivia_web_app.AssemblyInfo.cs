@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("82eb1648-cded-4d70-8ad0-3a43bedf0dd8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelBolivia_web_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

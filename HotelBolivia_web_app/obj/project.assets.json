@@ -11429,24 +11429,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HNJ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\logingrupo\\HotelBolivia_app\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
+      "projectUniqueName": "C:\\Users\\HNJ\\Desktop\\el verda\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
       "projectName": "HotelBolivia_web_app",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\logingrupo\\HotelBolivia_app\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\logingrupo\\HotelBolivia_app\\HotelBolivia_web_app\\obj\\",
+      "projectPath": "C:\\Users\\HNJ\\Desktop\\el verda\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
+      "packagesPath": "C:\\Users\\HNJ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HNJ\\Desktop\\el verda\\Hotel\\HotelBolivia_web_app\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HNJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11520,7 +11515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,7 +16,7 @@ namespace HotelBolivia_web_app.Models
 
         [NotMapped]
         [Display(Name = "Cargar Foto")]
-        public IFormFile? FormFile { get; set; }
+        public IFormFile? FotoFile { get; set; }
 
         ///realaciones a muchos
         public virtual List<PagoAlquiler>? PagoAlquilers { get; set; }

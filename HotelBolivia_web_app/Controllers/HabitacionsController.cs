@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HotelBolivia_web_app.Context;
 using HotelBolivia_web_app.Models;
+using Microsoft.AspNetCore.Hosting;
+using NuGet.Packaging.Signing;
 
 namespace HotelBolivia_web_app.Controllers
 {
     public class HabitacionsController : Controller
     {
         private readonly MiContext _context;
-
-        public HabitacionsController(MiContext context)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public HabitacionsController(MiContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         // GET: Habitacions
@@ -88,7 +91,7 @@ namespace HotelBolivia_web_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero,Foto,Habitaciones")] Habitacion habitacion)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero,FotoFile,Habitaciones")] Habitacion habitacion)
         {
             if (id != habitacion.Id)
             {
@@ -99,6 +102,10 @@ namespace HotelBolivia_web_app.Controllers
             {
                 try
                 {
+                    if(habitacion.FotoFile != null)
+                    {
+                        await SubirFoto(habitacion);
+                    }
                     _context.Update(habitacion);
                     await _context.SaveChangesAsync();
                 }
@@ -116,6 +123,21 @@ namespace HotelBolivia_web_app.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(habitacion);
+        }
+
+        private async Task SubirFoto(Habitacion habitacion)
+        {
+            //formar el nombre del archivo foto
+            string wwRootPath = _webHostEnvironment.WebRootPath;
+            string extension = Path.GetExtension(habitacion.FotoFile!.FileName);
+            string nombreFoto = $"{habitacion.Id}{extension}";
+            
+            habitacion.Foto = nombreFoto;
+
+            //copiar la foto en el proyecto del servidor
+            string path = Path.Combine($"{wwRootPath}/fotos/",nombreFoto);
+            var filestream = new FileStream(path,FileMode.Create);
+            await habitacion.FotoFile.CopyToAsync(filestream);
         }
 
         // GET: Habitacions/Delete/5
