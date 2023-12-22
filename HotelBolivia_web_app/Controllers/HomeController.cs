@@ -12,7 +12,7 @@ namespace HotelBolivia_web_app.Controllers
         {
             _logger = logger;
         }
-
+        //creacion clonar git
         public IActionResult Index()
         {
             return View();

@@ -51,6 +51,7 @@ namespace HotelBolivia_web_app.Controllers
             return View();
         }
 
+        //clonacion del todo para el repositorio
         // POST: Habitacions/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
