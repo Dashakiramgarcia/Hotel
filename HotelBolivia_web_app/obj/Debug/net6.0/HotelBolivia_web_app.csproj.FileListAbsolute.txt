@@ -1957,3 +1957,15 @@ F:\Hotel bolivia\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\refint\HotelBolivia
 F:\Hotel bolivia\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\HotelBolivia_web_app.pdb
 F:\Hotel bolivia\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\HotelBolivia_web_app.genruntimeconfig.cache
 F:\Hotel bolivia\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\ref\HotelBolivia_web_app.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\HarfBuzzSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\QuestPDF.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\SkiaSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+F:\Hotel bolivia\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll

@@ -7,6 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HotelBolivia_web_app.Context;
 using HotelBolivia_web_app.Models;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Previewer;
+using QuestPDF.Infrastructure;
+using QuestPDF.Previewer;
 
 namespace HotelBolivia_web_app.Controllers
 {
