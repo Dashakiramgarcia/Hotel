@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6QG30h6F2l4bd/I7TePHzzW1iSFYBUgIqFcAgi6+q8aCk58h/FRmPI9wxVqLGXZeo8QUH78fDQ3EQfIjDfTYGg==",
+  "dgSpecHash": "l5aY3C91sCFsGlepWqFWX1zaNMX0L4PHj4NzwZi88FrrK3ipBjjrthEnTnmoxlwj0yyNVaF/NK9hQxdA5WpNXg==",
   "success": true,
   "projectFilePath": "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
   "expectedPackageFiles": [
@@ -234,11 +234,7 @@
     "C:\\Users\\RUSS\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\RUSS\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\RUSS\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\RUSS\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\RUSS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\RUSS\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\RUSS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\RUSS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\RUSS\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
