@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using HotelBolivia_web_app.Context;
 using HotelBolivia_web_app.Models;
 
+
+
+
 namespace HotelBolivia_web_app.Controllers
 {
     public class HabitacionsController : Controller
@@ -159,5 +162,6 @@ namespace HotelBolivia_web_app.Controllers
         {
           return (_context.Habitaciones?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }

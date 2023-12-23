@@ -1,6 +1,8 @@
 using HotelBolivia_web_app.Context;
 using Microsoft.EntityFrameworkCore;
+using QuestPDF.Infrastructure;
 
+QuestPDF.Settings.License = LicenseType.Community;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
