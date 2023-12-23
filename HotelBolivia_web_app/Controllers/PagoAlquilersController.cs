@@ -124,6 +124,7 @@ namespace HotelBolivia_web_app.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            //utilizado para pasar datos desde el controlador hacia las vistas
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", pagoAlquiler.UsuarioId);
             return View(pagoAlquiler);
         }
@@ -135,7 +136,7 @@ namespace HotelBolivia_web_app.Controllers
             {
                 return NotFound();
             }
-
+            //await es una funcion de async
             var pagoAlquiler = await _context.PagoAlquilers
                 .Include(p => p.Usuario)
                 .FirstOrDefaultAsync(m => m.Id == id);
@@ -143,19 +144,21 @@ namespace HotelBolivia_web_app.Controllers
             {
                 return NotFound();
             }
-
+            //deteccion de vista
             return View(pagoAlquiler);
         }
 
         // POST: PagoAlquilers/Delete/borrar/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        //async palabra clave cuando se moifica un metodo
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.PagoAlquilers == null)
             {
                 return Problem("Entity set 'MiContext.PagoAlquilers'  is null.");
             }
+            //pago alquiler diferente a nulo
             var pagoAlquiler = await _context.PagoAlquilers.FindAsync(id);
             if (pagoAlquiler != null)
             {
