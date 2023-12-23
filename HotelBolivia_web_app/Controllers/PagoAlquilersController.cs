@@ -31,7 +31,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(await miContext.ToListAsync());
         }
 
-        // GET: PagoAlquilers/Details/5
+        // GET: PagoAlquilers/Details/detalle/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.PagoAlquilers == null)
@@ -50,7 +50,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // GET: PagoAlquilers/Create
+        // GET: PagoAlquilers/Create/crear
         public IActionResult Create()
         {
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
@@ -58,7 +58,7 @@ namespace HotelBolivia_web_app.Controllers
             return View();
         }
 
-        // POST: PagoAlquilers/Create
+        // POST: PagoAlquilers/Create/crear
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -75,7 +75,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // GET: PagoAlquilers/Edit/5
+        // GET: PagoAlquilers/Edit/editar/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.PagoAlquilers == null)

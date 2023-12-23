@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj": {}
+    "C:\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj": {}
   },
   "projects": {
-    "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj": {
+    "C:\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
+        "projectUniqueName": "C:\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
         "projectName": "HotelBolivia_web_app",
-        "projectPath": "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
-        "packagesPath": "C:\\Users\\RUSS\\.nuget\\packages\\",
-        "outputPath": "F:\\Hotel bolivia\\Hotel\\HotelBolivia_web_app\\obj\\",
+        "projectPath": "C:\\Hotel\\HotelBolivia_web_app\\HotelBolivia_web_app.csproj",
+        "packagesPath": "C:\\Users\\Ronald Canaviri\\.nuget\\packages\\",
+        "outputPath": "C:\\Hotel\\HotelBolivia_web_app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RUSS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ronald Canaviri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
