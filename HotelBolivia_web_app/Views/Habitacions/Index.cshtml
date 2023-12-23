@@ -33,8 +33,8 @@
                 @Html.DisplayFor(modelItem => item.Habitaciones)
             </td>
             <td>
+                <a class="btn btn-success"asp-action="Details" asp-route-id="@item.Id">Pago de los Alquileres</a> |
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
             </td>
         </tr>

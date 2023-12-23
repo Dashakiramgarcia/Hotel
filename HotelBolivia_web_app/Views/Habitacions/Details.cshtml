@@ -44,6 +44,12 @@
     
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
     <a asp-action="Index">Volver a la Lista</a>
 </div>
+
+<h3>Pago de las Habitaciones</h3>
+<hr/>
+@{
+    ViewData["HabitacionId"] = Model.Id;
+}
+<partial name="~/Views/PagoAlquilers/Create.cshtml" model="new PagoAlquiler()" view-data="ViewData"></partial>

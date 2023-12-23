@@ -46,29 +46,33 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // GET: PagoAlquilers/Create
-        public IActionResult Create()
-        {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
-            ViewData["HabitacionId"] = new SelectList(_context.Habitaciones, "Id", "Numero");
-            return View();
-        }
-
         // POST: PagoAlquilers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Ci,NombreCompleto,FechaRegistro,Dias,MontoTotal,NumFactura,HabtacionId,UsuarioId")] PagoAlquiler pagoAlquiler)
+        public async Task<IActionResult> Create( PagoAlquiler pagoAlquiler)
         {
             if (ModelState.IsValid)
             {
+                pagoAlquiler.NumFactura = getNumero();
+                pagoAlquiler.UsuarioId = 1;
                 _context.Add(pagoAlquiler);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                TempData["Pago Registrado"] = "Pago Registrado Correctamente";
+                return RedirectToAction("Details", "Habitacions",new {id =pagoAlquiler.HabtacionId});
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", pagoAlquiler.UsuarioId);
-            return View(pagoAlquiler);
+            return RedirectToAction("Details", "Habitacions", new { id = pagoAlquiler.HabtacionId});
+        }
+
+        private int getNumero()
+        {
+            if (_context.PagoAlquilers.ToList().Count > 0)
+            {
+                return _context.PagoAlquilers.Max(x => x.NumFactura) + 1;
+            }
+            return 1;
         }
 
         // GET: PagoAlquilers/Edit/5
