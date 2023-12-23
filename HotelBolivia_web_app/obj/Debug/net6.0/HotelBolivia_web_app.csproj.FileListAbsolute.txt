@@ -1956,3 +1956,15 @@ C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\refint
 C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\HotelBolivia_web_app.pdb
 C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\HotelBolivia_web_app.genruntimeconfig.cache
 C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\obj\Debug\net6.0\ref\HotelBolivia_web_app.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\HarfBuzzSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\QuestPDF.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\SkiaSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\HNJ\Desktop\el verda\Hotel\HotelBolivia_web_app\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll

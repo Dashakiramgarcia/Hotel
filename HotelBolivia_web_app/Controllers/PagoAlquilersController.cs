@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HotelBolivia_web_app.Context;
 using HotelBolivia_web_app.Models;
 
+
 namespace HotelBolivia_web_app.Controllers
 {
     public class PagoAlquilersController : Controller
@@ -166,5 +167,6 @@ namespace HotelBolivia_web_app.Controllers
           return (_context.PagoAlquilers?.Any(e => e.Id == id)).GetValueOrDefault();
         }
         //aqui otro para la factura
+
     }
 }

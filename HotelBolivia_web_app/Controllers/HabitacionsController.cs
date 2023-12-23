@@ -10,6 +10,8 @@ using HotelBolivia_web_app.Models;
 using Microsoft.AspNetCore.Hosting;
 using NuGet.Packaging.Signing;
 
+
+
 namespace HotelBolivia_web_app.Controllers
 {
     public class HabitacionsController : Controller
@@ -181,5 +183,6 @@ namespace HotelBolivia_web_app.Controllers
         {
           return (_context.Habitaciones?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
     }
 }

@@ -37,10 +37,15 @@ namespace HotelBolivia_web_app.Controllers
             }
         }
 
-        public IActionResult Logout()
+        /* public IActionResult Logout()
+         {
+             //cambiar a la pantalla login
+             return RedirectToAction("Index");
+         }*/
+
+        public async Task<IActionResult> Logout()
         {
-            //cambiar a la pantalla login
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Login");
         }
     }
 }
