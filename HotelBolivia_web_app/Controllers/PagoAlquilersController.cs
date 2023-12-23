@@ -92,7 +92,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // POST: PagoAlquilers/Edit/5
+        // POST: PagoAlquilers/Edit/editar/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -128,7 +128,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // GET: PagoAlquilers/Delete/5
+        // GET: PagoAlquilers/Delete/borrar/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.PagoAlquilers == null)
@@ -147,7 +147,7 @@ namespace HotelBolivia_web_app.Controllers
             return View(pagoAlquiler);
         }
 
-        // POST: PagoAlquilers/Delete/5
+        // POST: PagoAlquilers/Delete/borrar/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

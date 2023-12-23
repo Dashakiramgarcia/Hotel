@@ -2,7 +2,7 @@ using HotelBolivia_web_app.Context;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
 
-
+// questPDF tipo de licensia
 QuestPDF.Settings.License = LicenseType.Community;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Add Connection String
+//conexion string a la base de datos
 builder.Services.AddDbContext<MiContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaConexion"));
 });
