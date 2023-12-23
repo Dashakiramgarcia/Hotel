@@ -11,7 +11,7 @@ using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Previewer;
 using QuestPDF.Infrastructure;
-using QuestPDF.Previewer;
+using QuestPDF.Previewer; //libreria para el pdf
 
 namespace HotelBolivia_web_app.Controllers
 {
@@ -43,7 +43,7 @@ namespace HotelBolivia_web_app.Controllers
                 .Include(p => p.Usuario)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (pagoAlquiler == null)
-            {
+            {//retornar vista extraviado
                 return NotFound();
             }
 

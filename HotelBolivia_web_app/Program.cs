@@ -13,7 +13,8 @@ builder.Services.AddControllersWithViews();
 //conexion string a la base de datos
 builder.Services.AddDbContext<MiContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaConexion"));
-});
+}
+);
 
 var app = builder.Build();
 
